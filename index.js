@@ -8,7 +8,7 @@ dotenv.config();
 
 const saltRounds = 10; 
 const { Schema } = mongoose;
-const uri = "mongodb+srv://vimalkanthbd021:mongodbpassword@democluster.ru2irax.mongodb.net/?appName=democluster";
+const uri = "mongodb+srv://<id>:<password>@democluster.ru2irax.mongodb.net/?appName=democluster";
 
 let activesession = {
   classId: null,
